@@ -1,0 +1,36 @@
+Retro Grade-It, 1970s version
+Grading with a max score of 50
+
+Processing bensonl ...
+bensonl has correct output
+bensonl has 3 lines with comments
+bensonl has earned a score of 50 / 50
+
+Processing dravir ...
+dravir has incorrect output (1 lines do not match)
+dravir has 0 lines with comments
+dravir has earned a score of 38 / 50
+
+Processing joeblow ...
+joeblow has incorrect output (4 lines do not match)
+joeblow has 5 lines with comments
+joeblow has earned a score of 30 / 50
+
+Processing oterod ...
+oterod did not turn in the assignment
+oterod has earned a score of 0 / 50
+
+Processing reges ...
+reges has correct output
+reges has 2 lines with comments
+reges has earned a score of 43 / 50
+
+Processing stepp ...
+stepp has incorrect output (14 lines do not match)
+stepp has 1 lines with comments
+stepp has earned a score of 0 / 50
+
+Processing wallace ...
+wallace did not turn in the assignment
+wallace has earned a score of 0 / 50
+

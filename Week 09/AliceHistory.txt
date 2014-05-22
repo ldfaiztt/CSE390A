@@ -1,0 +1,36 @@
+# Sample commands for Alice, # means a comment, not a parameter to svn
+
+# 8am - Make the repo: Alice or Bob or someone else could have done this.
+cd 390
+mkdir lec09-repo
+svnadmin create lec09-repo/
+chgrp -R cse390a lec09-repo/
+chmod -R g+rwX,o-rwx lec09-repo/
+
+# 9am - Create a working directory for Alice
+mkdir aliceDir
+cd aliceDir
+
+# Get a copy of the current repo (currently just an empty folder)
+# Since the repo is on attu and we are on attu use file://foldername
+# if elsewhere we would use svn+ssh://attu.cs.washington.edu/foldername
+svn co file:///homes/iws/rea/390/lec09-repo
+cd lec09-repo/
+
+# 10am - Create a file and add and commit it to the repo
+emacs silly.txt
+svn add silly.txt # Don't forget to "add" new files to the repo before commiting
+svn status	  # Shows that silly.txt is scheduled to be (A)dded
+svn ci silly.txt -m "Added a silly file"
+
+# 11am - Makes a change to silly.txt, does not check it in yet...
+emacs silly.txt 
+svn status 	# Shows that Alice's copy of silly.txt has been (M)odified.
+svn diff silly.txt # Shows diffs between local modifications Alice made to 
+    		   # what she originally checked out as her working copy.
+
+# 1pm - Finally checks in modified silly.txt
+svn ci -m "very silly text added"
+
+
+

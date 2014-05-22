@@ -1,0 +1,21 @@
+<project>
+    <target name="compile">
+        <mkdir dir="bin" />
+        <javac srcdir="src"
+	       destdir="bin"
+	       classpath="src"
+	/>
+    </target>
+
+    <target name="clean">
+        <delete dir="bin" />
+    </target>
+
+    <target name="run">
+        <java classname="pacman.PacManMain">
+	    <classpath>
+	        <pathelement location="bin" />
+            </classpath>
+	</java>
+    </target>
+</project>

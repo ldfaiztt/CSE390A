@@ -1,0 +1,42 @@
+ln -s test newLinktoTest
+ls -l
+cat names.txt 
+less names.txt 
+head names.txt 
+tail names.txt 
+wc names.txt 
+wc -l names.txt 
+du names.txt 
+du -b names.txt 
+less unSortedNames.txt 
+diff unSortedNames.txt names.txt 
+diff unSortedNames.txt names.txt 
+wc names.txt 
+wc unSortedNames.txt 
+man wc
+ls
+grep Anderson names.txt 
+grep Anderson unSortedNames.txt 
+sort unSortedNames.txt | less
+wc -l unSortedNames.txt
+sort unSortedNames.txt | uniq | wc -l
+javac Hello.java
+java Hello
+rm *.class
+javac *.java
+java Hello > greeting.txt
+cat greeting.txt
+java HelloWorld -b fee fie foe fum
+java HelloWorld fee fie foe fum
+
+
+Slide 6:
+sort -r names.txt 
+
+Slide 12:
+java HelloWorld -b < input.txt > output.txt
+
+Slide 13:
+grep "A" names.txt | wc -l
+grep "A" names.txt | sort | tail -1 | wc -m
+

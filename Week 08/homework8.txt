@@ -1,0 +1,36 @@
+﻿Chun-Wei Chen
+CSE 390A
+Assignment 8
+11/14/12
+
+Task 1
+2.  tar -xzf jp2a-1.0.6.tar.gz
+3.  ./configure –prefix=`pwd`
+4.  make
+     make install
+6.  wget http://www.redorbit.com/media/uploads/2004/10/0_746ac3fe2bf33c3a0a07b05a23c46e47.jpg
+     ./jp2a --background=light 0_746ac3fe2bf33c3a0a07b05a23c46e47.jpg >> ~/390/hw8/homework8.txt
+     
+                          .                   
+                          ;                   
+                         :'                   
+                      .;:.                    
+                    'c;..,'.                  
+                   oc  ;l                     
+                   l,  oo.                    
+                    ,.  cd.                   
+                        .:     ..             
+              ,l:'...........    o'           
+                ..              ,:            
+                .,,,,,,,,,,.   .              
+                 ':'....','                   
+            '..    ..''...      .             
+           .,,''...............'..            
+                  .............               
+            ..                                
+            l:  ...   .   .   ...             
+            l: ...'d..d' .d. ...cc            
+            l: ',',d' ,o.:: .;''co            
+            l:.d,.'d'  llo  ;o..:o            
+           .o.  .. .    .    ... .            
+          .l.                                 

@@ -1,0 +1,40 @@
+cat ideas.txt 
+egrep "C" ideas.txt 
+egrep "C\>" ideas.txt 
+egrep "\<C\>" ideas.txt 
+
+less hamlet.txt
+egrep "act" hamlet.txt 
+egrep "Act" hamlet.txt 
+egrep "\<Act" hamlet.txt 
+egrep -i "\<Act" hamlet.txt 
+egrep -i "\<Act\>" hamlet.txt 
+egrep -i "^Act\>" hamlet.txt 
+egrep -i "scene" hamlet.txt 
+egrep -i "^scene" hamlet.txt 
+
+cat chat.txt 
+egrep "\^" chat.txt 
+egrep "\^\^" chat.txt 
+egrep "\^_\^" chat.txt 
+egrep "\^.*\^" chat.txt 
+egrep "(\^\^|\^_\^)" chat.txt 
+egrep "\^_?\^" chat.txt 
+
+cat 143.txt 
+egrep "[ABCDF]" 143.txt 
+egrep "[A-DF][+\-]?" 143.txt 
+egrep "[A-DF][+\-]?\>" 143.txt 
+
+cat faculty.html 
+egrep "[0-9]" faculty.html 
+egrep "\([0-9]" faculty.html 
+egrep "\([0-9]{3}" faculty.html 
+egrep "\([0-9]{3}\)" faculty.html 
+egrep "\([0-9]{3}\) [0-9]{3}" faculty.html 
+egrep "\([0-9]{3}\) [0-9]{3}-[0-9]" faculty.html 
+egrep "[0-9]{3}-[0-9]{4}" faculty.html 
+
+sed -r "s/([0-9]{3})-([0-9]{4})/\1\.\2/g" faculty.html 
+sed -r "s/([0-9]{3})-([0-9]{4})/\1\.\2/g" faculty.html > faculty2.html
+

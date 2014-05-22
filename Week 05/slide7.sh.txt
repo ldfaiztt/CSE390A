@@ -1,0 +1,17 @@
+#!/bin/bash
+clear
+echo "Today's date is `date`"
+echo
+~stepp/cowsay `whoami`
+
+echo "These users are currently connected:"
+w -h | sort
+echo
+
+echo "This is `uname -s` on a `uname -m` processor."
+echo
+
+echo "This is the uptime information:"
+uptime
+echo
+echo "That's all folks!"

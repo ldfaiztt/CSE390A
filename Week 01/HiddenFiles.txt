@@ -1,0 +1,52 @@
+
+-----------------------------------------------------------
+How to view "Hidden" aka dot files
+-----------------------------------------------------------
+
+This is about a problem you might encounter when trying to turn in
+your .plan and .bash_profile files for homework #4.  When you are at a
+linux terminal, ls -a allows you to see files that start with
+".". However, it is often tricky to see these same files from other
+visual file browsers.  This is a problem when you are trying to upload
+files into the catalyst dropbox and it uses a visual file browser to
+do so...
+
+Windows:
+
+In Windows file explorer, you can select Organize->Folder and Search
+Options.  And then select the View Tab, and select "Show hidden files,
+folders and dives".
+
+In older versions of windows you can try Tools->Folder Options and then
+select the View tab as described above.
+
+Mac:
+
+It looks like there are multiple different ways to see hidden folders on the
+Mac.
+
+In the two most recent versions of Mac OS X, for file Open and Save dialog
+boxes, type Shift-Command-Period to toggle hidden files between visible and
+invisible. That does not work in the Finder (Mac's version of a file
+explorer). And you have to type it every time you open the Open and Save
+dialog boxes because its not sticky. But assuming that you have upgraded
+your OS in the last two years, people should be able to use this feature on
+"Open" dialog boxes.
+
+http://www.macworld.com/article/142884/2009/09/106seehidden.html
+
+To make all files visible in the Finder by default, run the shell command
+"defaults write com.apple.Finder AppleShowAllFiles YES" and then relaunch
+the Finder. This should work on all Mac OS X versions, but it doesn't change
+the behavior of Open and Save dialogs, at least not in the most recent
+version of the OS.
+
+http://www.macworld.com/article/51830/2006/07/showallfinder.html
+
+-----
+
+Let me know if you have any questions, or if current Mac users have
+any more info to add.
+
+Ruth
+

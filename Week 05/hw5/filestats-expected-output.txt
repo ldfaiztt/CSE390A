@@ -1,0 +1,20 @@
+blank.txt:
+  lines: 10
+  blank: 9 (90%)
+  chars: 11 in 1 word(s) (11 char/word)
+Jack.java:
+  lines: 13
+  blank: 3 (23%)
+  chars: 369 in 44 word(s) (8 char/word)
+lyrics.dat:
+  lines: 27
+  blank: 2 (7%)
+  chars: 873 in 180 word(s) (4 char/word)
+numbers.dat:
+  lines: 5
+  blank: 0 (0%)
+  chars: 18 in 8 word(s) (2 char/word)
+syllabus.txt:
+  lines: 9
+  blank: 4 (44%)
+  chars: 1563 in 266 word(s) (5 char/word)

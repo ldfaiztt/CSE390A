@@ -1,0 +1,23 @@
+﻿Chun-Wei Chen
+CSE 390A
+Homework #2
+10/03/12
+
+Task 1
+1. /usr/bin/diff
+2. 2979
+3. 1212
+4. For hard link, a still can be used if b is deleted; on the other hand, for soft link, a cannot be used if b is deleted.
+5. If the file we want to use is deep in the subdirectory, such as ~/390/hw1/website/numbers.txt, we can simply create a link at the home directory so that we use the link instead of typing the whole path to use that file.
+
+Task 3
+1.  javac Crunch.java
+2.  sort animals2.txt | uniq | head -16
+3.  java Crunch > crunch.txt
+4.  java Pow < numbers.txt
+5.  cat verse*.txt > lyrics.txt
+6.  ls -l | grep -v .txt
+7.  du -bs /etc/X11
+8.  curl -s  http://www.cs.washington.edu/education/courses/cse390a/12au/homework/2/hamlet.txt | wc -w
+9.  grep -i growl animals.txt | sort -r | uniq
+10. java Fresh | head -4 > willsmith.txt

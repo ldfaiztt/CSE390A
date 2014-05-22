@@ -1,0 +1,11 @@
+hello: hello.o file2.o file3.o
+	gcc -o hello hello.o file2.o file3.o
+
+hello.o: hello.c
+	gcc -c hello.c
+
+file2.o: file2.c
+	gcc -c file2.c
+
+file3.o: file3.c
+	gcc -c file3.c

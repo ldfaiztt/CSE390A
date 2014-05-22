@@ -1,0 +1,39 @@
+Chun-Wei Chen
+CSE 390A
+Homework #1
+09/28/12
+
+Task 2
+mkdir 390
+cd 390/
+mkdir hw1
+cd hw1
+wget http://www.cs.washington.edu/education/courses/cse390a/12au/homework/1/hw1.zip
+unzip hw1.zip
+
+Task 3
+1. List all the files and directories in the current directory in alphabetical order and long listing format.
+2. /homes/iws/mijc0517
+3. Fri Sep 28 10:47:04 PDT 2012
+4.
+zlum
+zorahf
+zoran
+zxcczyf
+zzt0215
+5. 3.4.2-0cse.1
+
+Task 4
+1.  ls -l
+2.  ls -r /var
+3.  cp numbers.txt java/
+4.  mv Burrot.java Borat.java
+5.  rm diff.html diff.css
+6.  cal 6 2049
+7.  touch -t 03151656 MyProgram.java
+8.  ls *html *css
+9.  cp *txt website/
+10. cat MyProgram.java (another solution: more MyProgram.java)
+11. cat verse*txt
+12. tail -5 animals.txt
+13. wc -l animals.txt

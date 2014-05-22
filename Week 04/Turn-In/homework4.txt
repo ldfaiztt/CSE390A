@@ -1,0 +1,16 @@
+﻿Chun-Wei Chen
+CSE 390a
+Assignment 4
+10/19/12
+
+Task 2
+1. tar -vxf
+2. chmod ug+r example1.txt
+3.
+(a) chmod u+rw,go-rwx *.dat *.doc
+(b) chmod  600 *.dat *.doc
+4. chgrp -R ugrad_cs *
+5. su -c root `emacs /etc/hosts`
+6. find -name "*.java" | xargs chmod ugo+r
+7. find -size 1k | xargs chgrp ugrad_cs
+8. umask 0177

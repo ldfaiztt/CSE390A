@@ -1,0 +1,4 @@
+#!/bin/bash
+FILE=`ls -1 *.txt | sort | tail -1`
+echo "Your last text file is: $FILE"
+

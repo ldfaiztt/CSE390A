@@ -1,0 +1,51 @@
+# Sample commands for Bob, # means a comment, not a parameter to svn
+
+# 11am - Create a working directory for Bob
+mkdir bobDir
+cd bobDir/
+
+# 11am - Checkout files from the repo for Bob, gets a copy of orig silly.txt
+svn co file:///homes/iws/rea/390/lec09-repo/
+ls
+cd lec09-repo
+ls -la
+
+# 12:30pm - Bob is ready to start working, updates his copy of the repo
+svn update  	# Alice has not checked in her changes yet, Bob won't see them
+svn log silly.txt # shows a history of the check in messages that involved
+    		  # a change to silly.txt (can also call svn log to see 
+		  # log of all changes to the repo)
+emacs silly.txt
+
+# 2pm - Bob is done working on his copy of silly.txt, tries to check in. 
+svn ci silly.txt -m "complimented Alice on her silly text"
+
+# Checking in did not work due to conflict...
+
+# Updating warns of the problem, Bob selects "p" to postpone 
+svn update
+
+# Postponing creates 3 new file versions and adds in markers 
+# to the silly.txt file.
+ls -la
+more silly.txt		# Version with "markers" showing conflicts
+more silly.txt.mine 	# The version Bob just tried to check in.
+more silly.txt.r1 	# The verson Bob checked out (without his edits).
+more silly.txt.r2 	# The version Alice just checked in.
+
+# Bob chooses to edit the silly.txt file directly to remove the markers
+# and incorporate both his and Alice's modifications.
+emacs silly.txt
+
+# Tells svn to get rid of all those other versions other than silly.txt
+svn resolve --accept=working silly.txt
+
+# 3pm - Bob checks in the fixed version of silly.txt
+svn ci silly.txt -m "complimented Alice on her silly text"
+
+# Bob is just curious to confirm that other versions of silly.txt are gone.
+ls -la
+svn log silly.txt 
+svn status
+
+

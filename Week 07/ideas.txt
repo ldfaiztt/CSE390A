@@ -1,0 +1,9 @@
+- write compiler with C and code generation tools
+- look into linux kernel
+- write Chrome/Firefox extensions
+- write a basic webserver in C.
+- write regular expression engine using C
+- eat a sandwich
+- Climb Mt. Si
+- write a poem about the letter c
+

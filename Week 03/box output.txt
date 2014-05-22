@@ -1,0 +1,18 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~ Hi there!                ~
+~ This is   some input     ~
+~   for the box            ~
+~ program.                 ~
+~              It contains ~
+~ lines of various         ~
+~   different lengths.     ~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~ Hi there!                ~
+~ This is   some input     ~
+~   for the box            ~
+~ program.                 ~
+~              It contains ~
+~ lines of various         ~
+~   different lengths.     ~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~

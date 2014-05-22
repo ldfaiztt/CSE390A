@@ -1,0 +1,71 @@
+12:13:35 PM Jessica Miller: marTin
+12:13:50 PM Jessica Miller: do the front desk peeps need the exams by section or alphabetically?
+12:37:18 PM Martin Stepp: i dont think it matters
+12:37:39 PM Martin Stepp: i usually do by section, then alphabetically within each section
+12:37:41 PM Martin Stepp: did you enter yet?
+12:38:12 PM Jessica Miller: yup
+12:38:16 PM Jessica Miller: oops
+12:38:24 PM Jessica Miller: i mean yup about the alphabetizing ^^
+12:38:29 PM Jessica Miller: still finishing up 6
+12:38:36 PM Jessica Miller: but we have started sorting/tallying
+12:46:52 PM Martin Stepp: hey jessica
+12:47:46 PM Martin Stepp: we are moving our 341 grading from noe 624 to CSE room 503 now because we are losing our room
+12:47:54 PM Martin Stepp: just fyi to any TAs who might want to come over here after 142 ^)^
+12:48:01 PM Martin Stepp: we will be in CSE 503 the rest of the time
+12:48:03 PM Jessica Miller: ok ^_^
+12:48:05 PM Jessica Miller: 624
+12:48:07 PM Jessica Miller: then
+12:48:12 PM Martin Stepp: no
+12:48:13 PM Martin Stepp: 503
+12:48:19 PM Jessica Miller: ok sorry 503
+12:48:31 PM Jessica Miller: did some 142 tas offer to help grade 341
+12:48:32 PM Jessica Miller: ?
+12:48:36 PM Martin Stepp: i think so ^^
+12:48:39 PM Martin Stepp: maybe u can let them know
+12:48:40 PM Jessica Miller: ok cool ^_^
+12:48:40 PM Martin Stepp: thx ^_^
+12:48:43 PM Jessica Miller: i'll advertise it
+12:48:45 PM Jessica Miller: when we are finished
+Changed status to Offline (12:50:25 PM)
+Changed status to Online (12:52:44 PM)
+2:31:45 PM Jessica Miller: the grades are in if you want to take a look
+2:34:39 PM Martin Stepp: cool!  ovg?
+2:34:40 PM Martin Stepp: avg?
+2:34:52 PM Martin Stepp: 75!  not bad!
+2:34:56 PM Martin Stepp: gr8 job ica lady
+5:32:43 PM Jessica Miller: hey tin
+5:32:50 PM Martin Stepp: hi ica
+5:32:55 PM Jessica Miller: should i go ahead and make the final fields in the grades db public?
+5:33:08 PM Jessica Miller: X
+5:33:52 PM Jessica Miller: also - should i say anything about a curve?
+5:34:09 PM Martin Stepp: you can make them public
+5:34:12 PM Martin Stepp: i would not talk about curve yet
+5:34:13 PM Jessica Miller: ok
+5:34:15 PM Jessica Miller: ok
+5:34:15 PM Martin Stepp: lets both look @ that
+5:34:19 PM Jessica Miller: alright
+5:34:21 PM Martin Stepp: u can post key though if u want
+5:34:26 PM Jessica Miller: yeah i was going to do that
+5:34:30 PM Jessica Miller: and post a few stats 
+5:34:32 PM Jessica Miller: like average
+5:34:33 PM Jessica Miller: median
+5:34:44 PM Jessica Miller: and write a message to cse142announce
+5:34:53 PM Jessica Miller: i'll send to you first
+5:34:54 PM Martin Stepp: well i suggest waiting till we know abotu curve
+5:34:56 PM Martin Stepp: if that's ok
+5:34:58 PM Jessica Miller: oh ok
+5:35:05 PM Martin Stepp: u can author the msg if u want, but i have one i can give u ina  bit
+5:35:15 PM Jessica Miller: so go ahead and post solutions, a few stats, and make grades public
+5:35:21 PM Jessica Miller: but no email, etc
+5:35:40 PM Jessica Miller: correct?
+5:35:50 PM Martin Stepp: yes
+5:35:53 PM Jessica Miller: ok 
+5:41:40 PM Jessica Miller: how's 341 going tin?
+5:50:03 PM Jessica Miller: http://www.cs.washington.edu/education/courses/cse142/10au/exams.shtml
+5:50:09 PM Jessica Miller: is there anything else you would like me to do?
+5:50:45 PM Jessica Miller: i am probably going to hang out with alan, meg, and toni in a bit
+5:51:10 PM Jessica Miller: but i will be ready to look at a curve, do grades, practiceit, etc tomorrow morning
+5:51:38 PM Martin Stepp: i am about to come home now
+5:51:39 PM Martin Stepp: will call u
+5:51:42 PM Jessica Miller: oh ok
+Changed status to Offline (5:51:43 PM)

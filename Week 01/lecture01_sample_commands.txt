@@ -1,0 +1,122 @@
+ls
+clear
+ls
+cd 390
+ls
+cd lec01
+ls
+pwd
+ls 
+ls Music
+cd Music
+ls
+cd 
+pwd
+cd
+cd ~
+cd ~rea
+ls
+cd 390/lec01/
+pwd
+ls
+cd .
+pwd
+cd ..
+pwd
+cd ../..
+ls
+cd
+pwd
+ls
+cd 390/lec01/
+ls
+cd /
+pwd
+ls
+pwd
+cd /cse
+ls
+cd
+cd 390/lec01
+pwd
+ls
+ls Music
+ls -l Music
+man ls	[Notes: use return to advance one line, space advances one page, 
+    	and /-r to search on the -r option, n to go to the next occurence, 
+	/ to repeat that same search, q to exit man]
+ls -l
+ls -lr
+ls -la
+touch .tiny [Notes: creates an empty file called .tiny if one does not
+      	    already exist.  Otherwise changes the timestamp on .tiny.
+      	    You can only see files that start with a dot using the -a
+      	    option to ls.  You can see the timestamp using -l or
+      	    --full-time]
+ls -la
+ls -l
+mkdir SillyDir
+ls -l
+cd SillyDir/
+ls
+man cd  [Notes: cd is a command that is built-in to the shell.]
+ls
+cd ..
+ls
+cat numbers.txt 
+cp numbers.txt numbers-new.txt
+ls
+cat numbers-new.txt 
+history [Notes: history shows a list of the commands you have typed recently.]
+cp numbers-new.txt Music/
+ls Music
+ls -l
+ls Music/ [Notes: either ls Music or ls Music/ will work but in terms
+   	 of showing what you are doing, the later shows that Music is
+   	 a directory.]
+ls --help
+info touch [Notes: info is another way of getting help about a command.]
+clear
+date
+man date
+cal
+cal 2013
+man cal
+uname
+man uname
+uname -a
+ls
+cd Music/
+ls
+pwd
+ls
+mv verse2.txt verse4.txt [Notes: mv is a way of renaming or moving a file.]
+ls
+mv verse4.txt ..
+ls
+ls ..
+cd ..
+ls
+cp verse4.txt Music/verse2.txt
+ls Music/
+ls
+rm verse4.txt 
+ls
+ls -l
+cd Music/
+ls -l
+date
+touch verse3.txt 
+ls -l
+date
+touch -t 201212250230 verse3.txt [Notes: try man touch to see what the
+      	 	      		  -t option does. Use / to search for -t 
+				  in the man page]
+ls -l
+ls --full-time
+mv -i verse3.txt verse1.txt [Notes: prompt before overwriting verse1.txt if 
+      		 	    it already exists.]
+ls *.txt [Notes: This will match any filename that ends in .txt]
+mkdir newMusic
+mv *.txt newMusic
+exit

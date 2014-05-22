@@ -1,0 +1,31 @@
+Lecture 7 (Regular Expressions) Exercise answers:
+
+Slide 6:
+      egrep "\<C\>" ideas.txt
+
+      egrep -i "^ACT|^Scene" hamlet.txt
+
+
+Slide 8:
+      egrep "\^_?\^" chat.txt  
+
+
+Slide 10:
+      egrep "\<[ABCDF][+\-]?\>" 143.txt
+
+
+Slide 11:
+      egrep "\(206\) [0-9]{3}-[0-9]{4}" faculty.html 
+
+
+Slide 14:
+      sed -r "s/([0-9]{3})-([0-9]{4})/(206) \1\.\2/g" faculty.html
+      
+
+Slide 16:
+      #!/bin/bash
+
+      YEAR=2011
+      for FILE in `cat files.txt`; do
+      	    sed -r "s#([0-9]{1,2})/([0-9]{1,2})#\1/\2/$YEAR#g" $FILE
+      done

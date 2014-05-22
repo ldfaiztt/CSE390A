@@ -1,0 +1,56 @@
+ls
+ls -a
+emacs .bash_profile 
+alias
+emacs .bashrc
+alias
+ssh attu
+alias
+source ~/.bashrc
+alias
+emacs .bashrc
+source ~/.bashrc
+alias
+finger rea
+cd
+emacs .plan
+finger rea
+pwd
+cd 390
+groups rea
+grep orca /etc/group
+chgrp orca crazy.txt
+ls -lt
+umask
+umask 0044
+touch lec04.txt
+ls -l
+umask 0022
+touch old.txt
+ls -l
+chmod o+w temp3.txt 
+ls -lt
+chmod u-w temp1.txt 
+ls -lt
+chmod u+w temp1.txt 
+ls -lt
+cat temp2.txt 
+chmod -x temp2.txt 
+ls -lt
+chmod u-r temp2.txt 
+ls -lt
+cat temp2.txt 
+cat >> temp2.txt
+cat temp2.txt 
+chmod u+r temp2.txt 
+cat temp2.txt 
+ls -l
+chmod ogu-rwx temp2.txt 
+ls -l
+cat temp2.txt 
+cat > temp2.txt 
+chmod u+rw
+chmod u+rw temp2.txt 
+ls -l
+exit
+

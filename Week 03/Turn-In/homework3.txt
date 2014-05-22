@@ -1,0 +1,50 @@
+﻿Chun-Wei Chen
+CSE 390a
+Assignment 3
+10/10/12
+
+Task 1
+1. 
+ ____ 
+< %1 >
+ ---- 
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+2.  attu3.cs.washington.edu
+3.  /homes/iws/mijc0517
+4.  3.4.2-0cse.1
+5.  Fedora, v 17
+6.  10224212
+7.  24618
+8.  175
+9.  2953
+10.
+qkrwldn
+cgt2
+vkwagner
+11.
+First difference:
+Josh 936 917 0 0 0 983 794 404 582 881 814  (in babyname1.txt)
+Josh 936 917 0 0 0 983 794 404 582 881 1    (in babyname2.txt)
+Second difference:
+Martin 66 79 84 94 93 78 70 108 127 142 177  (in babyname1.txt)
+Martin 66 79 84 94 93 78 70 108 127 142 2    (in babyname2.txt)
+
+In both cases, the only difference between two lines is the last number of the line.
+
+Task 2
+1.  alias p=pico
+2.  alias ll="ls -la"
+3.  alias cheat="touch -t 03151656"
+4.  diff -by ~stepp/390/"message 1.txt" ~stepp/390/"message 2.txt"
+5.  touch `whoami` (extra challenge: touch `whoami`.txt)
+6.  top -d 01.00
+7.  ps -ef | grep "root" | grep "sh" | wc -l
+8.
+(a) scp ~stepp/390/Questions.class ~/390/ && yes | java Questions
+(b) scp ~stepp/390/Questions.class ~/390/ && yes 'n' | java Questions
+9.  scp ~stepp/390/Fresh.java . && javac Fresh.java && java Fresh
+10. cat boxinput.txt | java Box '~' >> "box output.txt"

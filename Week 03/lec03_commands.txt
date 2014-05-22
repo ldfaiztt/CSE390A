@@ -1,0 +1,102 @@
+cat movies.txt 
+grep The movies.txt 
+grep The
+less movies.txt 
+sort movies.txt 
+sort
+head -3 movies.txt 
+head -3 
+ls
+ls *.txt
+cat hi.txt 
+cat movies.txt 
+wc movies.txt 
+wc hi.txt 
+ls *.txt | wc -l
+wc movies.txt 
+sort movies.txt 
+sort movies.txt | grep "The"
+sort movies.txt | grep "The" | tail -3
+sort movies.txt | grep "The" | tail -3 | head -1
+which du
+which /usr/bin/du
+which man
+du /usr/bin/man
+du
+man which
+du /usr/bin/man
+which man | du
+du
+du `which man`
+ls *.txt
+ls *.txt | wc
+ls *.txt > temp
+cat temp
+wc < temp
+wc `ls *.txt`
+wc movies.txt hi.txt 
+wc *.txt
+which man | xargs du
+ls *.txt | wc
+ls *.txt | xargs wc
+wc hi.txt 
+wc hi.txt movies.txt 
+xargs wc
+ps
+jobs
+ps aux
+top
+ls
+emacs movies.txt 
+jobs
+ps
+jobs
+fg
+ls
+jobs
+kill %1
+jobs
+emacs movies.txt &
+ps
+kill 960
+ps
+ps -KILL 960
+ps
+kill -9 960
+ps
+ls
+javac Infinite.java 
+more Infinite.java 
+java Infinite
+ps
+java Infinite
+jobs
+ps
+kill 1317
+jobs
+kill -9 1317
+jobs
+ps
+java Infinite
+fg
+jobs
+ps
+emacs movies.txt 
+jobs
+kill %1
+jobs
+ssh attu4
+w
+finger
+finger rea
+who
+write rea
+links cs.washington.edu
+alias
+ls -la
+alias ll="ls -la"
+ll
+alias
+ll *.txt
+exit
+

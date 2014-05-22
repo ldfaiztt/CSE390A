@@ -1,0 +1,13 @@
+OBJECTS = hello.o file2.o file3.o
+PROG = hello
+
+all: $(PROG)
+
+$(PROG): $(OBJECTS)
+	gcc -o $(PROG) $(OBJECTS)
+
+.c.o: 
+	gcc -c $<
+
+clean:
+	rm -f $(OBJECTS) $(PROG)
